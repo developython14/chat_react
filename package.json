@@ -1,0 +1,32 @@
+{
+  "name": "mustaphachat",
+  "version": "1.0.0",
+  "description": "implememtaion of design for chat app",
+  "main": "index.html",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developython14/chat_react.git"
+  },
+  "keywords": [
+    "chat",
+    "flask",
+    "react",
+    "nodejs",
+    "git",
+    "socket",
+    "io",
+    "asynchronisation"
+  ],
+  "author": "Belkassem Mustapha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developython14/chat_react/issues"
+  },
+  "homepage": "https://github.com/developython14/chat_react#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
