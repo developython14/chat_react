@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var user = 'mustapha';
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
         <p>salam khoya</p>
+        <h1>{user+' 33'}</h1>
 
       </header>
     </div>
