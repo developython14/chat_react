@@ -5,7 +5,7 @@ import Menu from './componants/MenuComponant';
 function App() {
   return (
     <div className="App">
-  <div className="container">
+  <div className="container mt-2">
         <Menu></Menu>
     </div>
     </div>
