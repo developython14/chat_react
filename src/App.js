@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Menu from './componants/MenuComponant';
 
 function App() {
   var user = 'mustapha';
@@ -15,8 +16,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
+        >   <Menu></Menu>
         </a>
         <p>salam khoya</p>
         <h1>{user+' 33'}</h1>
