@@ -45,7 +45,7 @@ class Menu extends Component {
     }
     render(){
         const menu= this.state.dishes.map((dish)=>{
-            return (<Card
+            return (<Card key={dish.id} 
                 outline
                 style={{
                   width: '18rem'
@@ -53,23 +53,23 @@ class Menu extends Component {
               >
                 <img
                   alt="Sample"
-                  src="https://picsum.photos/300/200"
+                  src={dish.image} 
                 />
                 <CardBody>
                   <CardTitle tag="h5">
-                    Card title
+                  {dish.name} 
                   </CardTitle>
                   <CardSubtitle
                     className="mb-2 text-muted"
                     tag="h6"
-                  >
-                    Card subtitle
+                  >{dish.category}
                   </CardSubtitle>
                   <CardText>
-                    Some quick example text to build on the card title and make up the bulk of the card‘s content.
-                  </CardText>
+                  {dish.description}                   </CardText>
+                  <CardText>
+                  {dish.price}                   </CardText>
                   <Button>
-                    Button
+                    buy now
                   </Button>
                 </CardBody>
               </Card>
